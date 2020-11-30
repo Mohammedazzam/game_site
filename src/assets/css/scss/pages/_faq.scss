@@ -1,0 +1,40 @@
+.faq{
+    .quesition{
+        .collection-title{
+            background-color:$mainColorPlus2;
+            padding:20px 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            margin-top:30px;
+        }
+        .quesition-box{
+            .question-title{
+                @extend .collection-title;
+                margin-top:20px;
+                border-bottom: 1px solid $mainColor;
+            }
+            .question-reply{
+                background-color:$mainColorPlus2;
+                padding:20px 10px;
+                @extend %mainTransition;
+                color: $colorText;
+                font-size:17px
+            }
+        }   
+    }
+    
+}
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateY(10px);
+  opacity: 0;
+}

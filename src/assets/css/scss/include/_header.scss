@@ -1,0 +1,97 @@
+.main-top{
+    .bg-info {
+        background-color: $mainColor !important;
+    }
+    .nav-item,.nav-item a{
+        color:#c4d5f6;
+        font-size: 15px;
+    }
+    .btn .b-icon.bi, .nav-link .b-icon.bi, .dropdown-toggle .b-icon.bi, .dropdown-item .b-icon.bi, .input-group-text .b-icon.bi{  
+        font-size: 15px;
+        margin-right: 2px;
+    }
+    .nav-item a:not(.dropdown-toggle){
+        &:after{
+            content:'';
+            display:block;
+            height:2px;
+            width:0;
+            @extend %mainTransition;
+            background-color:$firstColor;
+        }
+        &:hover{
+            color:$firstColor;
+            &:after{
+                width:100%
+            }
+        }
+    }
+}.dropdown-menu{
+    background-color: $secondeColor !important;
+    border: 1px solid #4b4b4d;
+    li a{
+        background-color: $secondeColor !important;
+        padding: 10px 14px !important;
+    }
+}
+//############  main-header  ############
+.main-header{
+    .bg-info{
+        background-color: $secondeColor !important;
+    }a.dropdown-toggle{
+        font-weight: 600;
+        font-size: 15px;
+        overflow:hidden;
+        padding: 16px 15px;
+        text-transform: uppercase;
+        &:hover{
+            &:after,span{
+                color:$firstColor;
+            }
+        }
+        span{
+            color: #edecfb;
+            &:hover{
+                color:$firstColor;
+            }
+        }
+    }
+    .nav-item a:not(.dropdown-toggle){
+        color: #edecfb;
+        font-weight: 600;
+        font-size: 15px;
+        overflow:hidden;
+        padding: 16px 15px;
+        text-transform: uppercase;
+        @extend %mainTransition;
+        &:after{
+            content:'';
+            display:block;
+            height:2px;
+            width:0;
+            @extend %mainTransition;
+            background-color:$firstColor;
+        }
+        &:hover{
+            color:$firstColor;
+            &:after{
+                width:100%
+            }
+        }
+    }.navbar-light .navbar-brand {
+        color:#fff;
+    }
+    .nav-mainBtn{
+        a{
+            &:hover{
+                &:after{
+                    width:0 !important
+                }
+            }
+            @extend .mainBtn;
+            padding: 5px 17px !important;
+            margin: 8px auto 8px 11px;
+        }
+    }
+  
+}

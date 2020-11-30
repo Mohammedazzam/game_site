@@ -1,0 +1,44 @@
+.about-page{
+    .starter{
+        color:#fff;
+        padding-bottom:50px;
+        .main-head{
+            margin: 48px 0;
+            margin-top: 70px;
+        }
+        .box{
+            background-color: $mainColorPlus2;
+            padding:20px;
+            margin-bottom:50px;
+            border-radius: 5px;
+            h2{
+                background-color: $firstColor;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                margin: 10px auto;
+                padding: 9px;
+                font-size: 25px;
+            }
+            h4{
+                font-size: 22px;
+                font-weight: 600;
+                margin: 17px auto;
+            }
+            p{
+                color: #8f9fbe;
+                font-size: 16px;
+            }
+        }
+    }
+    .games-referral{
+        color:#fff;
+        padding-bottom:50px;
+        .main-head{
+            padding-bottom:0;
+        }
+    }
+    .about-area .box-content{
+        text-align:left
+    }
+}

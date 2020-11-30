@@ -1,0 +1,92 @@
+.forms{
+    margin:0 auto;
+    padding:100px 0;
+    background-image:url('./../img/breadcrump.jpg');
+    background-size: cover;
+    .change-page{
+        font-size: 15px;
+    }
+    .sign-social{
+        li{
+            display: inline-block;
+            a{
+                padding: 4px;
+                color: #fff;
+                margin: 5px;
+                font-size: 15px;
+                min-width: 110px;
+                display: block;
+            }
+            .facebook{
+                background: #3B5998;
+            }
+            .Twitter{
+                background: #00ACED;
+            }
+            .google{
+                background: #C32F10;
+            }
+        }
+    }
+    .title{
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 28px;
+        color: #fff;
+        font-family: emoji;
+    }
+    //** sign-up **
+    .sign-up{
+        .form{
+            margin:10px auto;
+            background-color: #151224eb;
+            width:600px;
+            padding:50px 20px;
+            .custom-control-label::before{
+                width: 16px;
+                height: 16px;
+                border-radius: 2px;
+                margin: -1px;
+            }.custom-control-label::after{
+                width: 15px;
+                height: 15px;
+            }
+            .custom-checkbox{
+                font-size: 14px;
+                text-align: left;
+                color:$colorText;
+            }
+            .mainBtn{
+                width:250px;
+                margin-top:0px;
+                margin-bottom:20px
+            }
+            .sign-social{
+                color:$colorText;
+                h5{
+                    font-size: 15px;
+                    margin:20px;
+                }
+            }
+        }
+    }//** sign-up **
+    .login-in{
+        .form{
+            .custom-control-label::before{
+                margin: -2px;
+            }
+            .mainBtn{
+                width:250px;
+                margin-top:0px;
+                margin-bottom:20px
+            }
+        }
+        .forgot-password{
+            font-size: 16px;
+            margin-bottom: 28px;
+            a{color: #fff;}
+            font-family: emoji;
+        }
+    }//login-in
+    
+}

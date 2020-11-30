@@ -1,0 +1,21 @@
+.bread-crump{
+    background-image: url(../img/breadcrump.jpg);
+    background-size: cover;
+    .layout{
+        padding:100px 0;
+        color:#fff;
+        h2{
+            line-height: 58px;
+            font-weight:bold;
+            font-family: none;
+        }
+        .breadcrumb{
+            background-color: #e9ecef00;
+            padding: 0;
+        }.breadcrumb-item.active {
+            color: $colorText;
+            font-size: 17px;
+            padding-top: 3px;
+        }
+    }
+}

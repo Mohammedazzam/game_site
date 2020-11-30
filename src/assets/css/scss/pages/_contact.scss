@@ -1,0 +1,26 @@
+.content-us{
+    .link-pox{
+        background-color: $mainColorPlus2;
+        margin-top:50px;
+        h1{
+            margin-bottom: 35px;
+            border-radius: 50%;
+            border: 1px solid $colorText;
+            width:90px;
+            height:90px;
+            margin:33px auto;
+            margin-top:0;
+            line-height:90px;
+            font-size: 40px;
+        }
+        p{
+            line-height:10px;
+            font-size:16px;
+        }
+    }
+}
+.form-contant{
+    .mainBtn{
+        padding: 8px 40px !important;
+    }
+}

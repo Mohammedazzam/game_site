@@ -1,0 +1,46 @@
+@import "scss/helpers/variables";
+@import "scss/helpers/grid";
+@import "scss/include/button";
+
+@import "scss/include/header";
+
+//** breadCrump **
+@import "scss/include/breadCrump";
+
+//** side-bar **
+@import "scss/include/side-bar";
+
+
+//#### Start Pages Code ####
+
+//** index **
+@import "scss/pages/index";
+
+//** about **
+@import "scss/pages/about";
+
+//** post **
+@import "scss/pages/post";
+
+//** contact **
+@import "scss/pages/contact";
+
+//** faq **
+@import "scss/pages/faq";
+
+//** blog **
+@import "scss/pages/blog";
+
+//** games **
+@import "scss/pages/games";
+
+//** game-details **
+@import "scss/pages/game-details";
+
+//** forms **
+@import "scss/pages/forms";
+
+//#### End Pages Code #####
+
+//** footer **
+@import "scss/include/footer";

@@ -1,0 +1,78 @@
+.footer{
+    padding-top:50px;
+    background-color: #12111e;
+    .copy-right{
+        margin-top:50px;
+        background-color: $mainColorPlus2;
+        p{
+            font-size:15px;
+            margin:0;
+            padding:20px 0
+        }
+    }
+    h4.title{
+        text-transform: uppercase;
+        margin-bottom:20px;
+        margin-top:16px;
+        font-weight: bold;
+        color:#e5e5e5;
+        font-size: 20px;
+    }
+    ul li{
+        display: block;
+        position: relative;
+        margin-top: 22px;
+        cursor: pointer;
+        margin: 2px;
+        font-size: 15px;
+        &:hover{
+            a,a>svg{
+                color:$firstColor !important;
+            }
+        }
+        a{
+            color:$colorText;
+            @extend %mainTransition;
+            
+        }
+    }
+/* Start footer */
+    .box-About-us{
+        p{
+            line-height: 23px;
+            font-size:15px;
+        }span svg{
+            width: 38px;
+            height: 19.735px;
+            padding: 1px;
+            color: #fff
+        }
+
+    }
+    .links ul li{
+        line-height: 28px;
+    }.box-Follow-us li{
+        margin-bottom:13px;
+        font-size: 16px;
+    }.box-Newsletter { 
+        form{
+            margin-top: 22px;
+        }
+        button.input-group-text{
+            border-color: #1273eb;
+            border-radius: 0 5px 5px 0;
+        }
+    }p{
+        line-height: 31px;
+        font-size: 17px;
+    }.copyright{
+        border-top: 1px solid #505f61;
+        padding-top:30px;
+        margin-top: 43px;
+    }.copyright p{
+        font-size:20px;
+    }.box-Newsletter.social-media-icons{
+        margin-top:27px
+    }/* End footer */
+
+}

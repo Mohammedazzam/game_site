@@ -1,0 +1,39 @@
+.post-news{
+    .post{
+        background-color: #171627;
+        margin-top:50px;
+        img{
+            width:100%;
+        }
+        .card-header{
+            padding:0
+        }.card-title a{
+            font-size: 22px;
+            font-family: system-ui;
+            color:#fff;
+            @extend %mainTransition;
+
+        }&:hover{
+            .card-title a{
+                color:$firstColor;
+            }
+        }
+        .card-body{
+            background-color: $mainColorPlus2;
+            ul li{
+                display:inline-block;
+                margin-right:20px;
+                svg{
+                    color:$firstColor;
+                    font-size: 17px;
+                }
+                span{
+                    font-size: 11px;
+                    color:$colorText;
+                    margin-left:9px;
+
+                }
+            }
+        }
+    }
+}

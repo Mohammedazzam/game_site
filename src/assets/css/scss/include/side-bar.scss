@@ -1,0 +1,21 @@
+.side-bar{
+    .box{
+        color:#fff;
+        margin-top:30px;
+        background-color:$mainColorPlus2;
+        .title{
+            h3{
+                margin: 0;
+                font-size: 20px;
+                font-weight: bold;
+                padding: 14px 10px;
+                background-color:$mainColorPlus2;
+            }
+            margin-bottom: 8px;
+            border-bottom: 1px solid $mainColor;
+        }
+        .body{
+            padding: 14px 10px;
+        }
+    }
+}

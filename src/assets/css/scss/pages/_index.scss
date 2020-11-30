@@ -1,0 +1,316 @@
+body{
+  background-color:$mainColor !important;
+}
+.main-slider{
+  background-image:url('./../img/slide-bg.png');
+  background-size: cover;
+  background-color:$mainColor;
+  color:#fff;
+  .content{
+    padding: 230px 0 60px 0;
+    .box-about{
+      margin-top: 90px;
+      h1{
+        font-family: inherit;
+      }
+      p{
+        color:$colorText;
+      }
+      .mainBtn{
+        padding:10px 30px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+//########### section ############
+.section{
+  padding:90px 0;
+  color:#fff
+}
+//########### section ############
+////////our-servers
+.our-servers{
+  .box-content{
+    background-color:$secondeColor;
+    color:#fff;
+    padding:20px;
+    img{
+      border-radius: 50%;
+    }
+    p{
+      &:before{
+        content: '';
+        display: inline-block;
+        width: 10px;
+        height:10px;
+        border-radius: 50%;
+        margin-right:10px;
+        background-color:red;
+        
+      }
+      &.green{
+        &:before{
+          background-color: green;
+        }
+      }
+      &.yellow{
+        &:before{
+          background-color: yellow;
+        }
+      }
+      &.red{
+        &:before{
+          background-color: red;
+        }
+      }
+    }
+  }
+}
+$mainColor :#171627;
+$firstColor:#d5057f;
+$secondeColor:#1e1d32;
+$colorText:#c4d5f6;
+///////our-servers
+.about-area{
+  color:#fff;
+  background-color: #141124;
+  .about-img{
+    img{
+      width:100%;
+      margin-top: 70px;
+    }
+    p{
+      color:$colorText;
+      margin: 17px 0px;
+      font-size: 15px;
+      a{
+        color:#fff;
+      }
+    }
+  }
+  .box-content{
+    background-color: #26253f;
+    padding: 16px 23px 5px 0px;
+    margin-bottom:30px;
+    border-radius: 2px;
+    img{
+      width: 114px;
+      margin: 15px 25px;
+    }
+    h4{
+      font-size: 24px;
+      font-family: unset;
+    }
+    p{
+      font-size: 16px;
+      color: $colorText;
+    }
+  }
+}
+/////########## online-game ###########
+.online-game{
+  background-color:$mainColor;
+  color:#fff;
+  .main-head p{
+    margin-bottom: 70px;
+  }
+}.VueCarousel-slide {
+  position: relative;
+  color: #fff;
+  font-family: Arial;
+  font-size: 24px;
+  text-align: center;
+  min-height: 100px;
+  .box{
+    padding:40px 0;
+    margin:0 20px;
+    background:#26253f;
+    .game-img{
+      margin: 30px auto;
+      img{width:160px;}
+    }
+  }
+}
+.label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+// ########## games-play ##############
+.games-play{
+  color:#fff;
+  background-color:$mainColorPlus;
+  .tab-nav{
+    li{
+      background-color: $mainColorPlus2;
+      border:1px solid $mainColorPlus2;
+      @extend %mainTransition;
+      border-radius: 3px;
+      width: 100%;
+      margin: 38px auto;
+      margin-right: 16px;
+      padding: 20px;
+      span{
+        display:block;
+      }
+      &.active{
+        background-color: #d5057f !important;
+      }
+    }
+    li:nth-last-child(1){
+      margin-right: 0;
+    }
+  }
+  .player-list{
+    li{
+      background-color: $mainColorPlus2;
+      padding:12px 0;
+      margin-bottom:20px;
+      border-radius:3px;
+      span{
+        display:block;
+        font-size: 15px;
+        line-height:25px;
+        &:nth-last-child(1){
+          color:#c4d5f6
+        }
+      }
+      img{
+        width:40px;
+        height:40px;
+        border-radius:50%
+      }
+    }
+  }
+  .game-img{
+    img{
+      width: 100%;
+    }
+  }
+}
+
+// ########## games-history ##############
+.games-history{
+  color:#fff;
+  overflow:hidden;
+  background-image: url(../img/bg-slider.png);
+  background-size: cover;
+  
+  table{
+    margin-top:70px;
+    thead{
+      background-color: $mainColorPlus2;
+      color:$colorText;
+      text-align: left;
+    }
+    tbody{
+      color:$colorText;
+      text-align: left;
+      td,th{
+        font-size:17px;
+        line-height: 53px;
+        border-color: #454d5500;
+        img{border-radius: 50%;}
+      }
+    }
+  }
+  .table-dark {
+    background-color: #26253f;
+  }
+  .table-dark.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(23 22 39);
+  }
+}
+// ########## games-history ##############
+// ########## games-referral ##############
+.games-referral{
+  .box{
+    margin-top: 80px;
+    .content{
+      margin-bottom: 31px;
+      .icon{
+        &.yellow{
+          color:#F39D36;
+          sup{
+            color:#fff;
+            background-color: #F39D36;
+          }
+        }
+        &.blue{
+          color:#0098D7;
+          sup{
+            color:#fff;
+            background-color: #0098D7;
+          }
+        }&.green{
+          color:#1AA15F;
+          sup{
+            color:#fff;
+            background-color: #1AA15F;
+          }
+        }
+        position: relative;
+        display: block;
+        background-color: #26253f;
+        width: 112px;
+        height: 112px;
+        margin: 22px auto;
+        line-height: 109px;
+        border-radius: 50%;
+        font-size: 47px;
+        sup{
+          display: block;
+          position: absolute;
+          left: 0;
+          display: block;
+          width: 41px;
+          line-height: 39px;
+          height: 41px;
+          border-radius: 50%;
+          font-size: 17px;
+        
+        }
+      }
+    }
+    h4{
+      font-size: 22px;
+      font-family: cursive;
+    }
+  }
+}
+// ########## games-referral ##############
+// ########## sec-playing ##############
+.sec-playing{
+  background-color: $mainColorPlus;
+  .kung-img img{
+    width:100%
+  }
+  .content{
+    padding-top:50px;
+    h2{
+      font-family: cursive;
+      margin-bottom: 25px;
+    }
+    .features{
+      li{
+        line-height: 40px;
+        svg{
+          margin-right:9px;
+          &.bg-danger{
+            background-color: $firstColor !important;
+          }
+        }
+      }
+      h4{
+        font-size: 16px;
+        color: $colorText;
+        display: inline;
+      }
+    }
+    .mainBtn {
+      padding: 10px 18px;
+    }
+  }
+}

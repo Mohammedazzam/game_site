@@ -1,0 +1,83 @@
+.games-details{
+    .change-bg{
+        background-color: $mainColorPlus2;
+        padding:20px
+    }
+    .about-game{
+        padding-top: 20px;
+        background-color: $mainColorPlus;
+        .game-img img{
+            width:100%
+        }
+        .main-head{
+            margin-bottom: 70px;
+        }
+        .content{
+            padding-top:30px;
+            h4{
+                font-weight: bold;
+                font-size:22px
+            }
+            p{
+                font-size: 15px;
+                line-height: 26px;
+            
+            }
+            ul li{
+                display: inline-block;
+                margin-right: 10px;
+                font-size: 17px;
+                svg{
+                    font-size: 17px;
+                    color: $firstColor;
+                }
+            }
+        }
+    }//about-game
+    .operating-system{
+        padding-top: 0px;
+        .main-head{
+            padding-top: 0px;
+        }
+        .operating-box{
+            border:1px solid #747474;
+            padding:30px 10px 10px 20px;
+            margin-bottom:50px;
+            h2{
+                background-color: $firstColor;
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                margin: 0 auto;
+                padding: 9px;
+                font-size: 28px;
+            }
+            .title{
+                font-weight: bold;
+                font-size: 23px;
+                margin-bottom: 16px;
+                margin-top: 1px;
+            }
+        }
+    }//operating-system
+    .controller-system{
+        
+        .change-bg{
+            padding:30px;
+        }
+        .content {
+            padding-top: 0px;
+            .features li {
+                line-height: 33px;
+                svg.bg-danger {
+                    font-size: 15px;
+                }
+            }
+            .title{
+                margin: 10px 0;
+                font-weight: bold;
+                font-size: 25px;
+            }
+        }
+    }//controller-system
+}
